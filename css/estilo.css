@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{	
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+ .grid{
+ 	display: grid;
+ 	
+ 	grid-template-columns: 1fr 1fr;
+ 	grid-template-rows: 1.0fr 3.1fr 0.4fr;
+ 	grid-template-areas: 
+ 	"header header"
+ 	"main formulario"
+ 	"footer footer";
+ 	grid-gap: 0.2rem;}
+
+ header{
+ 	background-color: #EA2027;
+ 	grid-area: header;
+ }
+
+ main{
+ 	background-color: #84ffff;
+ 	grid-area: main;
+ 	background-image: url(../img/fondo.png);
+ }
+
+ #formulario{
+ 	background-color: #000000;
+ 	background-image: url(../img/fondo2.png);
+ 	grid-area: formulario;
+ 	padding-left: 25%;
+ 	padding-top: 8%;
+}
+
+.form{
+	width: 80%;
+	height: 1.7rem;
+}
+footer{
+	background-color: #EA2027;
+	grid-area: footer;
+}
+
+.logo{
+	margin-left: 47%;
+}
+
+.font1{
+	color: #ffffff;
+	font-family: 'Anton';
+	margin-left: 8%;
+	padding-top: 20%;
+	font-size:  2.875em;
+}
+
+.font2{
+	color: #ffffff;
+	font-family: 'Inter';
+	margin-left: 7%;
+	font-size: 1.400rem;
+}
+
+.font3{
+	color: #ffffff;
+	padding-top: 5%;
+	margin-left: 45%;
+	font-family: 'Inter';
+	font-size: 1rem;
+	text-decoration-line: none;
+}
+@media only screen and (max-width: 550px){
+	.grid{
+		grid-template-columns: 1fr;
+		grid-template-rows: 1.0fr 3.1fr 3.1fr 0.3fr ;
+		grid-template-areas: 
+		"header"
+		"main"
+		"formulario"
+		"footer"
+}
+
+.boton:hover{ color: #57606f;}

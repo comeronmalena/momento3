@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+*{	
+	margin: 0px;
+	padding: 0px;
+
+}
+
+ .grid{
+ 	display: grid;
+ 	
+ 	grid-template-columns: 1fr;
+ 	grid-template-rows: 0.4fr 1.5fr 4.1fr 0.2fr;
+ 	grid-template-areas: 
+ 	"header"
+ 	"main"
+ 	"main2"
+ 	"footer";
+ 	grid-gap: 0.2rem;}
+ 
+ header{
+ 	background-color: #EA2027;
+ 	grid-area: header;
+ }
+
+ main{
+ 	background-color: #ffffff;
+ 	grid-area: main;}
+
+ .main2{
+ 	background-color: #ffffff;
+ }
+
+ footer{
+
+	background-color: #EA2027;
+	grid-area: footer;
+}
+ 
+.logo{
+	margin-left: 47%;
+}
+
+.www{
+	width: 0.3rem;
+	height: 0.5rem;
+}
+
+.font1{
+	margin-left: 45%;
+	font-size: 1.875em; 
+	font-family: "Anton" 
+
+}
+
+.font2{
+	margin-left: 27%;
+	font-size: 1.700em;
+	font-family: "Anton";
+
+}
+
+.font3{
+	margin-left: 25%;
+	font-size: 1.700em;
+	font-family: "Inter";}
+
+.font4{
+	margin-left: 41%;
+	font-size: 1.875em; 
+	font-family: "Anton" 
+}
+
+.font5{
+	margin-left: 35%;
+	font-size: 1.600em;
+	font-family: "Inter";
+}
+
+.font6{
+	text-align: center;
+	margin-left: 10%;
+	font-size: 1.600em;
+	font-family: "Inter";
+
+}
+
+#galeria {
+          
+            width:100%;
+            max-width:500px;
+            column-count: 1;
+            break-inside: avoid;
+			page-break-inside: avoid;
+        }
+
+.font7{
+	color: #ffffff;
+	padding-top: 5%;
+	margin-left: 45%;
+	font-family: 'Inter';
+	font-size: 1.4rem;
+	text-decoration-line: none;
+}
+
+.imagen{
+	max-width: 500px;
+}
